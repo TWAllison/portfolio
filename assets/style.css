@@ -1,13 +1,17 @@
 :root {
-    --primary-color: #8b8a7e;
-    --secondary-color:rgb(9, 32, 104);
-    --tertiary-color: #202222;
+    --color-1: #f9f9f9;
+    --color-2:#333333;
+    --blue-color: #074a6a;
+    --dark-color: #042738;
+    --accent-color: #ff4141;
 }
 
 * {
     margin: 0;
     padding:0;
-    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+    
 }
 
 /*Header Style Start*/
@@ -18,20 +22,19 @@ header {
     justify-content: space-between;
     position: -webkit-sticky;
     position:sticky;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 Header h1 {
-    font-weight: bold;
-    font-size: 50px;
-    color: var(--secondary-color);
-    text-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+   
+    font-size: 40px;
+    text-shadow:0 0 10px rgba(255, 65, 65, 0.5);
     
 }
 
 header a {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--blue-color);
 }
 
 header nav {
@@ -51,9 +54,103 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter; 
     font-size: 1.55vw;
+    font-weight: bold;
 }
 
 /*Header Style End*/
+
+
+/*About Me Style Start*/
+.main-section {
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-2);
+}
+
+.content-block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    color:var(--color-1)
+}
+
+.content-block p {
+    line-height: 1.8;
+    font-size: 1.6vw;
+    margin: 1.8vw;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.section-title h2 {
+    transform: rotate(-90deg);
+    font-size: 4vw;
+    border-bottom: 2px solid var(--accent-color);
+    color:var(--blue-color)
+}
+
+
+
+
+/*Work Section Start*/
+
+.section-title-2 {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.section-title-2 h2 {
+    transform: rotate(-90deg);
+    font-size: 4vw;
+    font-weight: lighter;
+    border-bottom: solid 2px var(--dark-color);
+    color: var(--color-2);
+}
+
+.main-project {
+    background-image:url(./runbuddy-screenshot.PNG);
+    background-size: cover;
+    height: 20vw;
+    width: 75%;
+    border:1px solid var(--blue-color);
+    text-decoration:none;
+
+}
+
+
+
+
+
+/*work section style end*/
+
+/* Contact me Style*/
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact ul li {
+    text-decoration: none;
+    list-style: none;
+    color:var(--secondary-color);
+    font-size:1.5vw;
+    display:flex;
+    justify-content:space-between;
+
+
+}
+
 
 /*Footer Style*/
 
@@ -70,4 +167,11 @@ Footer h2 {
     font: 30px bold;
     color:var(--secondary-color)
 
+}
+/*End Footer Style*/
+
+
+/*utility classes*/
+flex-row {
+    display:flex;
 }

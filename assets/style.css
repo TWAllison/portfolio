@@ -144,7 +144,7 @@ header nav ul li a:hover {
     background-image:url(../assets/runbuddy-screenshot.PNG);
     background-attachment: inherit;
     background-size: cover;
-    height: 30vw;
+    height: 25vw;
     width: 82%;
     border:2px solid var(--color-1);
     margin: 1vw;
@@ -153,13 +153,13 @@ header nav ul li a:hover {
 }
 
 .main-project:hover {
-    background:rgba(249, 249, 249, 0.1);
+    background:rgba(249, 249, 249, 0.75);
 }
 
 .project-2 {
     background-image: url(../assets/horiseon-screenshot.png);
     background-size: cover;
-    height: 25vw;
+    height: 18vw;
     width: 35%;
     border: solid 2px var(--color-1);
     margin: 1vw;
@@ -169,7 +169,7 @@ header nav ul li a:hover {
 .project-3 {
     background-image: url(../assets/portfolio-screenshot.PNG);
     background-size: cover;
-    height: 25vw;
+    height: 18vw;
     width: 35%;
     border: solid 2px var(--color-1);
     margin: 1vw;

@@ -152,7 +152,8 @@ header nav ul li a:hover {
 
 }
 
-.main-project:hover {
+                   
+.main-project:hover , .project-2:hover , .project-3:hover  {
     background:rgba(249, 249, 249, 0.75);
 }
 
@@ -165,6 +166,7 @@ header nav ul li a:hover {
     margin: 1vw;
     text-decoration: none;
 }
+
 
 .project-3 {
     background-image: url(../assets/portfolio-screenshot.PNG);

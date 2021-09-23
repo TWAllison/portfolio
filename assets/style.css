@@ -141,7 +141,7 @@ header nav ul li a:hover {
 }
 
 .main-project {
-    background-image:url(../assets/runbuddy-screenshot.PNG);
+    background-image:url(../assets/travel-bonanza2.PNG);
     background-attachment: inherit;
     background-size: cover;
     height: 25vw;
@@ -150,6 +150,10 @@ header nav ul li a:hover {
     margin: 1vw;
     text-decoration:none;
 
+}
+
+.main-project h3 {
+    margin-right: 2px;
 }
 
                    
